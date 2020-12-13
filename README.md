@@ -10,9 +10,10 @@
 | family_name_kana | string | null: false     |
 | first_name_kana  | string | null: false     |
 | encrypted_password | string | null: false |
-
 ### Association
-- has_many :
+- has_many : mentor
+- has_many : massage
+
 ## mentor テーブル
 | Column    | Type       | Options           |
 | --------- | ---------- | ----------------- |
